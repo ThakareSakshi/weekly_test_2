@@ -17,9 +17,16 @@
  justify-content: center;
  /* overflow-y:scroll ; */
 }
+.intro{
+  padding:30px 20px;
+  border-radius: 15px;
+  background:linear-gradient(#224456,#1a667b);
+  text-align: center;
+  margin:10px;
+}
 
 .sidebar{
-  width:15%;
+  width:18%;
   background-color: #226180;
   padding:20px;
   border: 1px solid black;
@@ -33,6 +40,19 @@
   top:50px;
   left:100px;
   height:fit-content
+}
+.show-more{
+  animation: upDown 2s linear infinite alternate;
+}
+
+@keyframes upDown {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(20px);
+  }
+  
 }
 .profile-pic{
  width: 100%;
@@ -116,7 +136,8 @@ p{
 }
 .info-card{
   display: flex;
-  background:linear-gradient(#2B5561,#226577);
+  background:linear-gradient(#224456,#1a667b);
+
   /* background-color; */
   border:1px solid #226577;
   padding:10px;

@@ -8,6 +8,10 @@ import Activity from './Activity'
 const About = () => {
   return (
     <div className='about'>
+      <div className='intro'>
+        <p>Hello there! 👋 My name is Oktay and I'm from Berlin, Germany. As a Full-Stack software developer, I specialize in creating visually appealing websites, apps and mobile games. My passion for graphic design isn't just a hobby, it's a key ingredient in every project I work on.</p>
+        <p className='show-more'><i class="fa-solid fa-arrow-up"></i> show more <i class="fa-solid fa-arrow-down"></i></p>
+      </div>
       <h2>Primary Focus</h2>
       <div className='cards-container'> 
         <InfoCard
